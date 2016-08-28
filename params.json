@@ -1,6 +1,6 @@
 {
   "name": "Wx-saobin",
   "tagline": "骚斌的微信服务",
-  "body": "# Demo\r\n\r\n[see here](/demo)",
+  "body": "# Demo\r\n\r\n1. [首页](/demo)\r\n2. [我有车](/demo/#own-a-car)\r\n3. [我有车单击发布的结果](/demo/#/own-a-car/rs)\r\n4. [我要蹭](/demo/#/need-a-car)\r\n5. [我要蹭单击搜索的结果](/demo/#/need-a-car/rs)\r\n6. [我要蹭搜索失败之后发送到朋友圈](/demo/#/need-a-car/share)\r\n7. [用户中心首页](/demo/#/user-center)\r\n8. [用户中心个人信息](/demo/#/user-center/personal-info)\r\n9. [用户中心我的行程](/demo/#/user-center/my-itinerary)\r\n10. [用户中心我的行程单击蹭车请求](/demo/#/user-center/my-itinerary/request)\r\n11. [用户中心我的行程单击邀请回应](/demo/#/user-center/my-itinerary/response)\r\n12. [用户中心蹭车信息](/demo/#/user-center/need-cars)\r\n13. [用户中心蹭车信息单击行程邀请](/demo/#/user-center/need-cars/request)\r\n14. [用户中心蹭车信息单击蹭车回应](/demo/#/user-center/need-cars/response)\r\n15. [用户中心我的评价](/demo/#/user-center/my-rate)\r\n16. [新用户注册](/demo/#/sign-up)",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
