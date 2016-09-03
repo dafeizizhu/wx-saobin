@@ -1,0 +1,207 @@
+1. 新用户注册
+入参:
+school 			string		(必填)
+name 			string		(必填)
+nick_name 		string		(必填)
+email 			string		(必填)
+pwd 			string		(必填)
+enrollment_t  		string		(必填)
+graduation_t  		string		(必填)
+is_driver		int		(0否，1是)
+license_no		string		(is_driver 1,必填)
+license_pic		string		(is_driver 1,必填)
+vehicle_1_brand 	string		(选填)
+vehicle_1_model 	string		(选填)
+vehicle_1_num   	int		(选填)
+vehicle_1_pic   	string		(选填)
+vehicle_2_brand 	string		(选填)
+vehicle_2_model 	string		(选填)
+vehicle_2_num   	int		(选填)
+vehicle_2_pic   	string		(选填)
+
+出参:
+msg			string
+error_code		int
+
+2.司机发布行程
+入参:
+user_id				string
+passenger_num			int
+departure_longtitude		float
+departure_latitude		float
+destination_longtitude		float
+destination_latitude		float
+departure_time			string
+reward				float
+vehicle_id			int
+remark				string
+
+出参:
+msg				string
+error_code			int
+
+3.司机搜索乘客的蹭车需求
+入参:
+passenger_num			int
+departure_longtitude		float
+departure_latitude		float
+vehicle_id			int
+
+出参:
+msg				string
+error_code			int
+
+
+4.乘客搜索司机的行程
+入参:
+passenger_num			int
+departure_longtitude		float
+departure_latitude		float
+destination_longtitude		float
+destination_latitude		float
+departure_time			string
+
+出参:
+msg				string
+error_code			int
+
+5.乘客发布蹭车需求
+入参:
+user_id				string
+passenger_num			int
+departure_longtitude		float
+departure_latitude		float
+destination_longtitude		float
+destination_latitude		float
+departure_time			string
+
+出参:
+msg				string
+error_code			int
+
+6.获取个人信息
+入参:
+user_id			string
+
+出参:
+school 			string		
+name 			string		
+nick_name 		string		
+email 			string		
+pwd 			string		
+enrollment_t  		string		
+graduation_t  		string		
+is_driver		int			
+license_no		string		
+license_pic		string		
+vehicle_1_brand 	string		
+vehicle_1_model		string		
+vehicle_1_num   	int			
+vehicle_1_pic   	string		
+vehicle_2_brand 	string		
+vehicle_2_model 	string		
+vehicle_2_num   	int			
+vehicle_2_pic   	string		
+
+7.司机获取我的蹭车请求信息
+入参:
+user_id			string
+
+出参:
+request_list			[]request
+
+
+request:
+request_id			string
+travel_id			string				(乘客想蹭的行程id)
+passenger_id			string				(乘客的user_id)
+nick_name  			string
+sex				int				(0未知，1男，2女)
+school				string
+passenger_num			int
+mobile				string
+
+8.司机接受乘客的请求
+入参:
+user_id				string
+request_id			string
+result				string				(0拒绝，1同意)
+
+出参:
+msg				string
+error_code			int
+
+9.司机获取我邀请乘客的信息
+入参:
+user_id				string
+
+出参:
+invitation_list			[]invitation
+
+invitation:
+invitation_id			string
+travel_id			string				(乘客想蹭的行程id)
+passenger_id			string				(乘客的user_id)
+nick_name  			string
+sex				int				(0未知，1男，2女)
+school				string
+passenger_num			int
+invite_result			int				(2拒绝，1同意,0未作决定)
+
+
+10.乘客获取我的行程邀请信息
+入参:
+user_id				string
+
+出参:
+request_list			[]request
+
+
+request:
+request_id			string
+travel_id			string				(邀请我的行程id)
+nick_name  			string
+sex				int				(0未知，1男，2女)
+school				string
+mobile				string
+
+destination_longtitude		float
+destination_latitude		float
+departure_time			string
+reward				float
+passenger_num			int
+vehicle_id			int
+remark				string
+
+
+
+
+11.乘客获取我的蹭车信息
+入参:
+user_id				string
+
+出参:
+request_list			[]request
+
+
+request:
+request_id			string
+nick_name  			string
+sex				int				(0未知，1男，2女)
+school				string
+mobile				string
+
+destination_longtitude		float
+destination_latitude		float
+departure_time			string
+passenger_num			int
+reward				float
+vehicle_id			int
+remark				string
+					
+
+12.乘客获取我已完成的行程
+
+13.司机获取乘客对我的评价
+					
+
