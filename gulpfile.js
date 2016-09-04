@@ -14,7 +14,7 @@ gulp.task('webpack', ['clean'], cb => {
 })
 
 gulp.task('deploy', ['webpack'], () => {
-  gulp.src(['index.html', 'dist/**/*'], {base: '.'})
+  gulp.src(['index.html', 'dist/**/*', 'fixture/**/*'], {base: '.'})
     .pipe(gulp.dest(process.env.WX_SAOBIN_DEPLOY_PATH))
 })
 
