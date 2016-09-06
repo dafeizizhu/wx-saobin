@@ -32,6 +32,7 @@
     "redux-logger": "^2.6.1",
     "redux-thunk": "^2.1.0",
     "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
     "weui": "^0.4.3",
     "zepto": "^1.2.0"
   }
