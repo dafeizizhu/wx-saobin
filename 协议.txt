@@ -1,207 +1,263 @@
-1. ĞÂÓÃ»§×¢²á
-Èë²Î:
-school 			string		(±ØÌî)
-name 			string		(±ØÌî)
-nick_name 		string		(±ØÌî)
-email 			string		(±ØÌî)
-pwd 			string		(±ØÌî)
-enrollment_t  		string		(±ØÌî)
-graduation_t  		string		(±ØÌî)
-is_driver		int		(0·ñ£¬1ÊÇ)
-license_no		string		(is_driver 1,±ØÌî)
-license_pic		string		(is_driver 1,±ØÌî)
-vehicle_1_brand 	string		(Ñ¡Ìî)
-vehicle_1_model 	string		(Ñ¡Ìî)
-vehicle_1_num   	int		(Ñ¡Ìî)
-vehicle_1_pic   	string		(Ñ¡Ìî)
-vehicle_2_brand 	string		(Ñ¡Ìî)
-vehicle_2_model 	string		(Ñ¡Ìî)
-vehicle_2_num   	int		(Ñ¡Ìî)
-vehicle_2_pic   	string		(Ñ¡Ìî)
+1. æ–°ç”¨æˆ·æ³¨å†Œ
+å…¥å‚:
+school      string    (å¿…å¡«)
+name      string    (å¿…å¡«)
+nick_name     string    (å¿…å¡«)
+email       string    (å¿…å¡«)
+pwd       string    (å¿…å¡«)
+enrollment_t      string    (å¿…å¡«)
+is_driver   int   (0å¦ï¼Œ1æ˜¯)
+license_no    string    (is_driver 1,å¿…å¡«)
+license_pic   string    (is_driver 1,å¿…å¡«)
+vehicle_1_brand   string    (é€‰å¡«)
+vehicle_1_model   string    (é€‰å¡«)
+vehicle_1_num     int   (é€‰å¡«)
+vehicle_1_pic     string    (é€‰å¡«)
+vehicle_2_brand   string    (é€‰å¡«)
+vehicle_2_model   string    (é€‰å¡«)
+vehicle_2_num     int   (é€‰å¡«)
+vehicle_2_pic     string    (é€‰å¡«)
 
-³ö²Î:
-msg			string
-error_code		int
+å‡ºå‚:
+msg     string
+error_code    int
 
-2.Ë¾»ú·¢²¼ĞĞ³Ì
-Èë²Î:
-user_id				string
-passenger_num			int
-departure_longtitude		float
-departure_latitude		float
-destination_longtitude		float
-destination_latitude		float
-departure_time			string
-reward				float
-vehicle_id			int
-remark				string
+2.å¸æœºå‘å¸ƒè¡Œç¨‹
+å…¥å‚:
+user_id       string
+passenger_num     int
+departure_longtitude    float
+departure_latitude    float
+destination_longtitude    float
+destination_latitude    float
+departure_time      string
+reward        float
+vehicle_id      int
+remark        string
 
-³ö²Î:
-msg				string
-error_code			int
+å‡ºå‚:
+msg       string
+error_code      int
 
-3.Ë¾»úËÑË÷³Ë¿ÍµÄ²ä³µĞèÇó
-Èë²Î:
-passenger_num			int
-departure_longtitude		float
-departure_latitude		float
-vehicle_id			int
+3.å¸æœºæœç´¢ä¹˜å®¢çš„è¹­è½¦éœ€æ±‚
+å…¥å‚:
+passenger_num     int
+departure_longtitude    float
+departure_latitude    float
+vehicle_id      int
 
-³ö²Î:
-msg				string
-error_code			int
+å‡ºå‚:
+msg       string
+error_code      int
+school        string    
+nick_name       string  
+passenger_num     int
+departure_longtitude    float
+departure_latitude    float
+destination_longtitude    float
+destination_latitude    float
+departure_time      string
 
 
-4.³Ë¿ÍËÑË÷Ë¾»úµÄĞĞ³Ì
-Èë²Î:
-passenger_num			int
-departure_longtitude		float
-departure_latitude		float
-destination_longtitude		float
-destination_latitude		float
-departure_time			string
+4.ä¹˜å®¢æœç´¢å¸æœºçš„è¡Œç¨‹
+å…¥å‚:
+passenger_num     int
+departure_longtitude    float
+departure_latitude    float
+destination_longtitude    float
+destination_latitude    float
+departure_time      string
 
-³ö²Î:
-msg				string
-error_code			int
+å‡ºå‚:
+msg       string
+error_code      int
+school        string    
+nick_name       string    
+passenger_num     int
+departure_longtitude    float
+departure_latitude    float
+destination_longtitude    float
+destination_latitude    float
+departure_time      string
+vehicle_brand       string    
+vehicle_model       string    
+vehicle_num         int   
+vehicle_pic         string    
+reward        float
 
-5.³Ë¿Í·¢²¼²ä³µĞèÇó
-Èë²Î:
-user_id				string
-passenger_num			int
-departure_longtitude		float
-departure_latitude		float
-destination_longtitude		float
-destination_latitude		float
-departure_time			string
 
-³ö²Î:
-msg				string
-error_code			int
+5.ä¹˜å®¢å‘å¸ƒè¹­è½¦éœ€æ±‚
+å…¥å‚:
+user_id       string
+passenger_num     int
+departure_longtitude    float
+departure_latitude    float
+destination_longtitude    float
+destination_latitude    float
+departure_time      string
 
-6.»ñÈ¡¸öÈËĞÅÏ¢
-Èë²Î:
-user_id			string
+å‡ºå‚:
+msg       string
+error_code      int
 
-³ö²Î:
-school 			string		
-name 			string		
-nick_name 		string		
-email 			string		
-pwd 			string		
-enrollment_t  		string		
-graduation_t  		string		
-is_driver		int			
-license_no		string		
-license_pic		string		
-vehicle_1_brand 	string		
-vehicle_1_model		string		
-vehicle_1_num   	int			
-vehicle_1_pic   	string		
-vehicle_2_brand 	string		
-vehicle_2_model 	string		
-vehicle_2_num   	int			
-vehicle_2_pic   	string		
+6.è·å–ä¸ªäººä¿¡æ¯
+å…¥å‚:
+user_id     string
 
-7.Ë¾»ú»ñÈ¡ÎÒµÄ²ä³µÇëÇóĞÅÏ¢
-Èë²Î:
-user_id			string
+å‡ºå‚:
+school      string    
+name      string    
+nick_name     string    
+email       string    
+pwd       string    
+enrollment_t      string    
+graduation_t      string    
+is_driver   int     
+license_no    string    
+license_pic   string    
+vehicle_1_brand   string    
+vehicle_1_model   string    
+vehicle_1_num     int     
+vehicle_1_pic     string    
+vehicle_2_brand   string    
+vehicle_2_model   string    
+vehicle_2_num     int     
+vehicle_2_pic     string    
 
-³ö²Î:
-request_list			[]request
+7.å¸æœºè·å–æˆ‘çš„è¹­è½¦è¯·æ±‚ä¿¡æ¯
+å…¥å‚:
+user_id     string
+
+å‡ºå‚:
+request_list      []request
 
 
 request:
-request_id			string
-travel_id			string				(³Ë¿ÍÏë²äµÄĞĞ³Ìid)
-passenger_id			string				(³Ë¿ÍµÄuser_id)
-nick_name  			string
-sex				int				(0Î´Öª£¬1ÄĞ£¬2Å®)
-school				string
-passenger_num			int
-mobile				string
+request_id      string
+travel_id     string        (ä¹˜å®¢æƒ³è¹­çš„è¡Œç¨‹id)
+passenger_id      string        (ä¹˜å®¢çš„user_id)
+nick_name       string
+sex       int       (0æœªçŸ¥ï¼Œ1ç”·ï¼Œ2å¥³)
+school        string
+passenger_num     int
+mobile        string
 
-8.Ë¾»ú½ÓÊÜ³Ë¿ÍµÄÇëÇó
-Èë²Î:
-user_id				string
-request_id			string
-result				string				(0¾Ü¾ø£¬1Í¬Òâ)
+8.å¸æœºæ¥å—ä¹˜å®¢çš„è¯·æ±‚
+å…¥å‚:
+user_id       string
+request_id      string
+result        string        (0æ‹’ç»ï¼Œ1åŒæ„)
 
-³ö²Î:
-msg				string
-error_code			int
+å‡ºå‚:
+msg       string
+error_code      int
 
-9.Ë¾»ú»ñÈ¡ÎÒÑûÇë³Ë¿ÍµÄĞÅÏ¢
-Èë²Î:
-user_id				string
+9.å¸æœºè·å–æˆ‘é‚€è¯·ä¹˜å®¢çš„ä¿¡æ¯
+å…¥å‚:
+user_id       string
 
-³ö²Î:
-invitation_list			[]invitation
+å‡ºå‚:
+invitation_list     []invitation
 
 invitation:
-invitation_id			string
-travel_id			string				(³Ë¿ÍÏë²äµÄĞĞ³Ìid)
-passenger_id			string				(³Ë¿ÍµÄuser_id)
-nick_name  			string
-sex				int				(0Î´Öª£¬1ÄĞ£¬2Å®)
-school				string
-passenger_num			int
-invite_result			int				(2¾Ü¾ø£¬1Í¬Òâ,0Î´×÷¾ö¶¨)
+invitation_id     string
+travel_id     string        (ä¹˜å®¢æƒ³è¹­çš„è¡Œç¨‹id)
+passenger_id      string        (ä¹˜å®¢çš„user_id)
+nick_name       string
+sex       int       (0æœªçŸ¥ï¼Œ1ç”·ï¼Œ2å¥³)
+school        string
+passenger_num     int
+invite_result     int       (2æ‹’ç»ï¼Œ1åŒæ„,0æœªä½œå†³å®š)
 
 
-10.³Ë¿Í»ñÈ¡ÎÒµÄĞĞ³ÌÑûÇëĞÅÏ¢
-Èë²Î:
-user_id				string
+10.ä¹˜å®¢è·å–æˆ‘çš„è¡Œç¨‹é‚€è¯·ä¿¡æ¯
+å…¥å‚:
+user_id       string
 
-³ö²Î:
-request_list			[]request
-
-
-request:
-request_id			string
-travel_id			string				(ÑûÇëÎÒµÄĞĞ³Ìid)
-nick_name  			string
-sex				int				(0Î´Öª£¬1ÄĞ£¬2Å®)
-school				string
-mobile				string
-
-destination_longtitude		float
-destination_latitude		float
-departure_time			string
-reward				float
-passenger_num			int
-vehicle_id			int
-remark				string
-
-
-
-
-11.³Ë¿Í»ñÈ¡ÎÒµÄ²ä³µĞÅÏ¢
-Èë²Î:
-user_id				string
-
-³ö²Î:
-request_list			[]request
+å‡ºå‚:
+request_list      []request
 
 
 request:
-request_id			string
-nick_name  			string
-sex				int				(0Î´Öª£¬1ÄĞ£¬2Å®)
-school				string
-mobile				string
+request_id      string
+travel_id     string        (é‚€è¯·æˆ‘çš„è¡Œç¨‹id)
+nick_name       string
+sex       int       (0æœªçŸ¥ï¼Œ1ç”·ï¼Œ2å¥³)
+school        string
+mobile        string
 
-destination_longtitude		float
-destination_latitude		float
-departure_time			string
-passenger_num			int
-reward				float
-vehicle_id			int
-remark				string
-					
+destination_longtitude    float
+destination_latitude    float
+departure_time      string
+reward        float
+passenger_num     int
+vehicle_id      int
+remark        string
 
-12.³Ë¿Í»ñÈ¡ÎÒÒÑÍê³ÉµÄĞĞ³Ì
 
-13.Ë¾»ú»ñÈ¡³Ë¿Í¶ÔÎÒµÄÆÀ¼Û
-					
+
+
+11.ä¹˜å®¢è·å–æˆ‘çš„è¹­è½¦ä¿¡æ¯
+å…¥å‚:
+user_id       string
+
+å‡ºå‚:
+request_list      []request
+
+
+request:
+request_id      string
+nick_name       string
+sex       int       (0æœªçŸ¥ï¼Œ1ç”·ï¼Œ2å¥³)
+school        string
+mobile        string
+
+destination_longtitude    float
+destination_latitude    float
+departure_time      string
+passenger_num     int
+reward        float
+vehicle_id      int
+remark        string
+          
+
+12.ä¹˜å®¢è·å–æˆ‘å·²å®Œæˆçš„è¡Œç¨‹
+å…¥å‚:
+user_id       string
+
+å‡ºå‚:
+travel_list     []travel
+
+travel:
+driver_name     string
+passenger_num     int
+departure_longtitude    float
+departure_latitude    float
+destination_longtitude    float
+destination_latitude    float
+departure_time      string
+reward        float
+remark        string
+star        int
+
+13.å¸æœºè·å–ä¹˜å®¢å¯¹æˆ‘çš„è¯„ä»·
+å…¥å‚:
+user_id       string
+
+å‡ºå‚:
+travel_list     []travel
+
+travel:
+passenger_nick_name   string
+passenger_num     int
+departure_longtitude    float
+departure_latitude    float
+destination_longtitude    float
+destination_latitude    float
+departure_time      string
+reward        float
+remark        string
+star        int
+
+          
 
