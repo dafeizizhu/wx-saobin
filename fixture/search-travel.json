@@ -1,4 +1,21 @@
 {
   "msg": "success",
-  "error_code": 0
+  "error_code": 0,
+  "travel_list": [{
+    "school": "骚斌的学校",
+    "nick_name": "骚斌",
+    "passenger_num": 4,
+    "departure_longtitude": 1,
+    "departure_latitude": 2,
+    "departure_name": "骚斌要出发的地方",
+    "destination_name": "骚斌要到的地方",
+    "destination_longtitude": 3,
+    "destination_latitude": 4,
+    "departure_time": "2016年9月7日",
+    "vehicle_brand": "比亚迪",
+    "vehicle_model": "秦",   
+    "vehicle_num": "粤B11111", 
+    "vehicle_pic": "https://team.weui.io/avatar/bear.jpg",   
+    "reward": 100
+  }]
 }
