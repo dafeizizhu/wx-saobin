@@ -28,6 +28,8 @@ user_id       string
 passenger_num     int
 departure_longtitude    float
 departure_latitude    float
+departure_name				string
+destination_name			string
 destination_longtitude    float
 destination_latitude    float
 departure_time      string
@@ -44,16 +46,22 @@ error_code      int
 passenger_num     int
 departure_longtitude    float
 departure_latitude    float
+departure_name				string
 vehicle_id      int
 
 出参:
 msg       string
 error_code      int
+request_list	[]request
+
+request:
 school        string    
 nick_name       string  
 passenger_num     int
 departure_longtitude    float
 departure_latitude    float
+departure_name				string
+destination_name			string
 destination_longtitude    float
 destination_latitude    float
 departure_time      string
@@ -64,6 +72,8 @@ departure_time      string
 passenger_num     int
 departure_longtitude    float
 departure_latitude    float
+departure_name				string
+destination_name			string
 destination_longtitude    float
 destination_latitude    float
 departure_time      string
@@ -71,11 +81,17 @@ departure_time      string
 出参:
 msg       string
 error_code      int
+travel_list		[]travel
+
+
+travel:
 school        string    
 nick_name       string    
 passenger_num     int
 departure_longtitude    float
 departure_latitude    float
+departure_name				string
+destination_name			string
 destination_longtitude    float
 destination_latitude    float
 departure_time      string
@@ -92,6 +108,8 @@ user_id       string
 passenger_num     int
 departure_longtitude    float
 departure_latitude    float
+departure_name				string
+destination_name			string
 destination_longtitude    float
 destination_latitude    float
 departure_time      string
