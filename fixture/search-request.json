@@ -2,7 +2,6 @@
   "msg": "",
   "error_code": 0,
   "request_list": [{
-    "id": "a1",
     "school": "骚斌的学校",
     "nick_name": "骚斌",  
     "passenger_num": 4,
@@ -14,7 +13,6 @@
     "destination_latitude": 123,
     "departure_time": "2016年9月7日"
   }, {
-    "id": "a2",
     "school": "小骚斌的学校",
     "nick_name": "小骚斌",  
     "passenger_num": 5,
