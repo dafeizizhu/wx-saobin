@@ -106,6 +106,8 @@ reward        float
 入参:
 user_id       string
 passenger_num     int
+travel_id           int  (对应的行程id，可为空)
+driver_user_id      int  (对应的行程的司机id，可为空)
 departure_longtitude    float
 departure_latitude    float
 departure_name				string
