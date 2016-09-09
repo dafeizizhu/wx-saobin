@@ -1,0 +1,9 @@
+@media (max-width: 420px) {
+  .narrow .weui_cell {
+    font-size: 14px; 
+  }
+  .narrow .weui_input[type='date'],
+  .narrow .weui_input[type='datetime-local'] { 
+    font-size: 12px; 
+  }
+}
