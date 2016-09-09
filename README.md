@@ -21,7 +21,6 @@
 3. `#/own-a-car/rs` => 我有车单击发布的结果
 4. `#/need-a-car` => 我要蹭
 5. `#/need-a-car/rs` => 我要蹭单击搜索的结果
-6. `#/need-a-car/share` => 我要蹭搜索失败之后发送到朋友圈
 7. `#/user-center` => 用户中心首页
 8. `#/user-center/personal-info` => 用户中心个人信息
 9. `#/user-center/my-itinerary` => 用户中心我的行程
