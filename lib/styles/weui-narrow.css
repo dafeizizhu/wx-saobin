@@ -6,4 +6,7 @@
   .narrow .weui_input[type='datetime-local'] { 
     font-size: 12px; 
   }
+  .narrow .weui_label {
+    width: 60px;
+  }
 }
