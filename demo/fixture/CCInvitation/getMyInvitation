@@ -1,0 +1,23 @@
+{
+  "msg": "司机获取我邀请乘客的信息",
+  "error_code": 0,
+  "data": [{
+    "invitation_id": "invitation_id",
+    "travel_id": "travel_id",
+    "passenger_id": "passenger_id",
+    "nick_name": "nick_name",
+    "sex": 1,
+    "school": "school",
+    "passenger_num": 1,
+    "invite_result": 1
+  }, {
+    "invitation_id": "invitation_id2",
+    "travel_id": "travel_id2",
+    "passenger_id": "passenger_id2",
+    "nick_name": "nick_name2",
+    "sex": 2,
+    "school": "school2",
+    "passenger_num": 2,
+    "invite_result": 2
+  }]
+}

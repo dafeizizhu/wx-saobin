@@ -1,0 +1,29 @@
+{
+  "msg": "乘客获取我已完成的行程",
+  "error_code": 0,
+  "data": [{
+    "travel_id": "travel_id",
+    "driver_name": "driver_name",
+    "passenger_num": 1,
+    "departure_longtitude": 1,
+    "departure_latitude": 1,
+    "destination_longtitude": 1,
+    "destination_latitude": 1,
+    "departure_time": "2016-09-11T17:18",
+    "reward": 1,
+    "remark": "remark",
+    "star": 1
+  }, {
+    "travel_id": "travel_id2",
+    "driver_name": "driver_name2",
+    "passenger_num": 2,
+    "departure_longtitude": 2,
+    "departure_latitude": 2,
+    "destination_longtitude": 2,
+    "destination_latitude": 2,
+    "departure_time": "2016-09-11T17:18",
+    "reward": 2,
+    "remark": "remark2",
+    "star": 2
+  }]
+}

@@ -1,0 +1,23 @@
+{
+  "msg": "司机获取我的蹭车请求信息",
+  "error_code": 0,
+  "data": [{
+    "request_id": "request_id",
+    "travel_id": "travel_id",
+    "passenger_id": "passenger_id",
+    "nick_name": "nick_name",
+    "sex": 1,
+    "school": "school",
+    "passenger_num": 1,
+    "mobile": "mobile"
+  }, {
+    "request_id": "request_id2",
+    "travel_id": "travel_id2",
+    "passenger_id": "passenger_id2",
+    "nick_name": "nick_name2",
+    "sex": 2,
+    "school": "school2",
+    "passenger_num": 2,
+    "mobile": "mobile2"
+  }]
+}

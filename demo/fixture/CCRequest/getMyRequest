@@ -1,0 +1,33 @@
+{
+  "msg": "乘客获取我的蹭车信息",
+  "error_code": 0,
+  "data": [{
+    "request_id": "request_id",
+    "travel_id": "travel_id",
+    "nick_name": "nick_name",
+    "sex": 1,
+    "school": "school",
+    "mobile": "mobile",
+    "destination_longtitude": 1,
+    "destination_latitude": 1,
+    "departure_time": 1,
+    "reward": 1,
+    "passenger_num": 1,
+    "vehicle_id": 1,
+    "remark": "remark"
+  }, {
+    "request_id": "request_id1",
+    "travel_id": "travel_id1",
+    "nick_name": "nick_name1",
+    "sex": 2,
+    "school": "school1",
+    "mobile": "mobile1",
+    "destination_longtitude": 2, 
+    "destination_latitude": 2,
+    "departure_time": 2,
+    "reward": 2,
+    "passenger_num": 2,
+    "vehicle_id": 2,
+    "remark": "remark2"
+  }]
+}

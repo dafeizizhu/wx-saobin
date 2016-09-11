@@ -1,0 +1,29 @@
+{
+  "msg": "司机获取乘客对我的评价",
+  "error_code": 0,
+  "data": [{
+    "travel_id": "travel_id",
+    "passenger_nick_name": "passenger_nick_name",
+    "passenger_num": 1,
+    "departure_longtitude": 1,
+    "departure_latitude": 1,
+    "destination_longtitude": 1,
+    "destination_latitude": 1,
+    "departure_time": "2016-09-11T17:21",
+    "reward": 1,
+    "remark": "remark",
+    "star": 1
+  }, {
+    "travel_id": "travel_id2",
+    "passenger_nick_name": "passenger_nick_name2",
+    "passenger_num": 2,
+    "departure_longtitude": 2,
+    "departure_latitude": 2,
+    "destination_longtitude": 2,
+    "destination_latitude": 2,
+    "departure_time": "2016-09-11T17:21",
+    "reward": 2,
+    "remark": "remark2",
+    "star": 2
+  }]
+}
