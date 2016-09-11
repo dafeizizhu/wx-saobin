@@ -2,11 +2,14 @@ www.wenbinyang.com
 1. 新用户注册
 url:  Host:Port/Home/CCUsers/register
 入参:
+wx_id       string    (必填)
 school      string    (必填)
 name      string    (必填)
 nick_name     string    (必填)
 email       string    (必填)
 pwd       string    (必填)
+sex       string    (必填)
+mobile    string    (必填)
 enrollment_t      string    (必填)
 is_driver   int   (0否，1是)
 license_no    string    (is_driver 1,必填)
@@ -59,6 +62,7 @@ error_code      int
 data	      []request
 
 request:
+request_id    string
 school        string    
 nick_name       string  
 passenger_num     int
@@ -90,6 +94,7 @@ data		[]travel
 
 
 travel:
+travel_id     string
 school        string    
 nick_name       string    
 passenger_num     int
@@ -137,6 +142,7 @@ error_code      int
 data        userInfo
 
 userInfo:
+user_id     string
 school      string    
 name      string    
 nick_name     string    
@@ -277,6 +283,7 @@ error_code      int
 data     []travel
 
 travel:
+travel_id       string
 driver_name     string
 passenger_num     int
 departure_longtitude    float
@@ -299,6 +306,7 @@ error_code      int
 data     []travel
 
 travel:
+travel_id           string
 passenger_nick_name   string
 passenger_num     int
 departure_longtitude    float
@@ -333,3 +341,4 @@ data                status
 
 status:
 status    int       (0，未注册，1正在审核，2审核通过)
+user_id   string
