@@ -2,6 +2,7 @@
   "msg": "司机搜索乘客的蹭车需求",
   "error_code": 0,
   "data": [{
+    "request_id": "request_id",
     "school": "school",
     "nick_name": "nick_name",
     "passenger_num": 1,
@@ -13,6 +14,7 @@
     "destination_latitude": 1,
     "departure_time": "2016-09-11T16:52"
   }, {
+    "request_id": "request_id2",
     "school": "school2",
     "nick_name": "nick_name2",
     "passenger_num": 2,

@@ -2,6 +2,7 @@
   "msg": "乘客获取我已完成的行程",
   "error_code": 0,
   "data": [{
+    "travel_id": "travel_id",
     "driver_name": "driver_name",
     "passenger_num": 1,
     "departure_longtitude": 1,
@@ -13,6 +14,7 @@
     "remark": "remark",
     "star": 1
   }, {
+    "travel_id": "travel_id2",
     "driver_name": "driver_name2",
     "passenger_num": 2,
     "departure_longtitude": 2,

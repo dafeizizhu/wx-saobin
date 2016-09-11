@@ -2,6 +2,7 @@
   "msg": "乘客搜索司机的行程",
   "error_code": 0,
   "data": [{
+    "travel_id": "travel_id",
     "school": "school",
     "nick_name": "nick_name",
     "passenger_num": 1,
@@ -17,6 +18,7 @@
     "vehicle_num": 1,
     "vehicle_pic": "http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/"
   }, {
+    "travel_id": "travel_id2",
     "school": "school2",
     "nick_name": "nick_name2",
     "passenger_num": 2,

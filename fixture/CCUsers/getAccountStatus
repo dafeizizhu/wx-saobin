@@ -2,6 +2,7 @@
   "msg": "获取账号状态",
   "error_code": 0,
   "data": {
-    "status": 1
+    "status": 1,
+    "user_id": "user_id"
   }
 }

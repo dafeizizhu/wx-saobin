@@ -2,6 +2,7 @@
   "msg": "获取个人信息",
   "error_code": 0,
   "data": {
+    "user_id": "user_id",
     "school": "school",
     "name": "name",
     "nick_name": "nick_name",
