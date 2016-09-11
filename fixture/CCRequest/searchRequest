@@ -1,0 +1,27 @@
+{
+  "msg": "司机搜索乘客的蹭车需求",
+  "error_code": 0,
+  "data": [{
+    "school": "school",
+    "nick_name": "nick_name",
+    "passenger_num": 1,
+    "departure_longtitude": 1,
+    "departure_latitude": 1,
+    "departure_name": "departure",
+    "destination_name": "destination",
+    "destination_longtitude": 1,
+    "destination_latitude": 1,
+    "departure_time": "2016-09-11T16:52"
+  }, {
+    "school": "school2",
+    "nick_name": "nick_name2",
+    "passenger_num": 2,
+    "departure_longtitude": 2,
+    "departure_latitude": 2,
+    "departure_name": "departure2",
+    "destination_name": "destination2",
+    "destination_longtitude": 2,
+    "destination_latitude": 2,
+    "departure_time": "2016-09-11T16:52"
+  }]
+}

@@ -1,0 +1,7 @@
+{
+  "msg": "获取账号状态",
+  "error_code": 0,
+  "data": {
+    "status": 1
+  }
+}

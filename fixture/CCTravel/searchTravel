@@ -1,0 +1,35 @@
+{
+  "msg": "乘客搜索司机的行程",
+  "error_code": 0,
+  "data": [{
+    "school": "school",
+    "nick_name": "nick_name",
+    "passenger_num": 1,
+    "departure_longtitude": 1,
+    "departure_latitude": 1,
+    "departure_name": "departure",
+    "destination_name": "destination",
+    "destination_longtitude": 1,
+    "destination_latitude": 1,
+    "departure_time": "2016-09-11T16:55",
+    "vehicle_brand": "vehicle_brand",
+    "vehicle_model": "vehicle_model",
+    "vehicle_num": 1,
+    "vehicle_pic": "http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/"
+  }, {
+    "school": "school2",
+    "nick_name": "nick_name2",
+    "passenger_num": 2,
+    "departure_longtitude": 2,
+    "departure_latitude": 2,
+    "departure_name": "departure2",
+    "destination_name": "destination2",
+    "destination_longtitude": 2,
+    "destination_latitude": 2,
+    "departure_time": "2016-09-11T16:55",
+    "vehicle_brand": "vehicle_brand2",
+    "vehicle_model": "vehicle_model2",
+    "vehicle_num": 2,
+    "vehicle_pic": "http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/"
+  }]
+}
