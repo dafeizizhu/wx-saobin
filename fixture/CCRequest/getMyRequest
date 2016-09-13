@@ -3,7 +3,6 @@
   "error_code": 0,
   "data": [{
     "request_id": "request_id",
-    "travel_id": "travel_id",
     "nick_name": "nick_name",
     "sex": 1,
     "school": "school",
@@ -17,7 +16,6 @@
     "remark": "remark"
   }, {
     "request_id": "request_id1",
-    "travel_id": "travel_id1",
     "nick_name": "nick_name1",
     "sex": 2,
     "school": "school1",
