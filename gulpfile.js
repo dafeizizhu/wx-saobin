@@ -6,7 +6,7 @@ var exec = require('child_process').exec
 gulp.task('clean', () => del([path.join(__dirname, 'dist', '**', '*')]))
 
 gulp.task('webpack', ['clean'], cb => {
-  exec('webpack -p', (err, stdout, stderr) => {
+  exec('API_ENV=local webpack -p', (err, stdout, stderr) => {
     console.log(stdout)
     console.log(stderr)
     cb(err)
