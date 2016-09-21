@@ -1,5 +1,6 @@
 www.wenbinyang.com
 1. 新用户注册
+请求方式: POST
 url:  Host:Port/Home/CCUsers/register
 入参:
 wx_id       string    (必填)
@@ -28,6 +29,7 @@ msg     string
 error_code    int
 
 2.司机发布行程
+请求方式: POST
 url:  Host:Port/Home/CCTravel/postTravel
 入参:
 user_id       string
@@ -48,6 +50,7 @@ msg       string
 error_code      int
 
 3.司机搜索乘客的蹭车需求
+请求方式: GET
 url:  Host:Port/Home/CCRequest/searchRequest
 入参:
 passenger_num     int
@@ -76,6 +79,7 @@ departure_time      string
 
 
 4.乘客搜索司机的行程
+请求方式: GET
 url:  Host:Port/Home/CCTravel/searchTravel
 入参:
 passenger_num     int
@@ -113,6 +117,7 @@ reward        float
 
 
 5.乘客发布蹭车需求
+请求方式: POST
 url:  Host:Port/Home/CCRequest/postRequest
 入参:
 user_id       string
@@ -132,6 +137,7 @@ msg       string
 error_code      int
 
 6.获取个人信息
+请求方式: GET
 url:  Host:Port/Home/CCUsers/getUserInfo
 入参:
 user_id     string
@@ -163,6 +169,7 @@ vehicle_2_num     int
 vehicle_2_pic     string    
 
 7.司机获取我的蹭车请求信息
+请求方式: GET
 url:  Host:Port/Home/CCRequest/getRequestForMe
 入参:
 user_id     string
@@ -184,6 +191,7 @@ passenger_num     int
 mobile        string
 
 8.司机接受乘客的请求
+请求方式: POST
 url:  Host:Port/Home/CCRequest/answerRequest
 入参:
 user_id       string
@@ -195,6 +203,7 @@ msg       string
 error_code      int
 
 9.司机获取我邀请乘客的信息
+请求方式: GET
 url:  Host:Port/Home/CCInvitation/getMyInvitation
 入参:
 user_id       string
@@ -216,6 +225,7 @@ invite_result     int       (2拒绝，1同意,0未作决定)
 
 
 10.乘客获取我的行程邀请信息
+请求方式: GET
 url:  Host:Port/Home/CCInvitation/getInvitationForMe
 入参:
 user_id       string
@@ -246,6 +256,7 @@ remark        string
 
 
 11.乘客获取我的蹭车信息
+请求方式: GET
 url:  Host:Port/Home/CCRequest/getMyRequest
 入参:
 user_id       string
@@ -273,6 +284,7 @@ remark        string
           
 
 12.乘客获取我已完成的行程
+请求方式: GET
 url:  Host:Port/Home/CCTravel/getMyTravel
 入参:
 user_id       string
@@ -296,6 +308,7 @@ remark        string
 star        int
 
 13.司机获取乘客对我的评价
+请求方式: GET
 url:  Host:Port/Home/CCTravel/getMyComment
 入参:
 user_id       string
@@ -319,6 +332,7 @@ remark        string
 star        int
 
 14. 乘客取消行程请求
+请求方式: POST
 url: Host:Port/Home/CCRequest/delMyRequest
 入参：
 user_id      string
@@ -329,6 +343,7 @@ error_code          int
 msg                 string
           
 15. 获取账号状态
+请求方式: GET
 url: Host:Port/Home/CCUsers/getAccountStatus
 入参：
 open_id      string
