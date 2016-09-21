@@ -1,6 +1,6 @@
 {
   "msg": "乘客搜索司机的行程",
-  "error_code": 0,
+  "error_code": "1",
   "data": [{
     "travel_id": "travel_id",
     "school": "school",

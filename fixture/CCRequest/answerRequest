@@ -1,4 +1,4 @@
 {
   "msg": "司机接受乘客的请求",
-  "error_code": 0
+  "error_code": "1" 
 }
