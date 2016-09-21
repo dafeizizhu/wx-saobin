@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "NODE_ENV=dev API_NEV=local webpack -d --watch"
+    "dev": "NODE_ENV=dev API_NEV=local webpack -d --watch",
+    "dev-remote-api": "NODE_ENV=dev webpack -d --watch"
   },
   "author": "",
   "license": "ISC",
