@@ -20,6 +20,8 @@
     "vehicle_2_brand": "vehicle_2_brand",
     "vehicle_2_model": "vehicle_2_model",
     "vehicle_2_num": 2,
-    "vehicle_2_pic": "http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/"
+    "vehicle_2_pic": "http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/",
+    "vehicle_1_id": "1",
+    "vehicle_2_id": "2"
   }
 }
