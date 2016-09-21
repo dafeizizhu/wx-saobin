@@ -1,6 +1,6 @@
 {
   "msg": "乘客获取我的蹭车信息",
-  "error_code": 0,
+  "error_code": "1",
   "data": [{
     "request_id": "request_id",
     "nick_name": "nick_name",

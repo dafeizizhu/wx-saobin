@@ -1,6 +1,6 @@
 {
   "msg": "司机获取乘客对我的评价",
-  "error_code": 0,
+  "error_code": "1",
   "data": [{
     "travel_id": "travel_id",
     "passenger_nick_name": "passenger_nick_name",

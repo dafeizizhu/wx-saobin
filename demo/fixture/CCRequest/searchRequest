@@ -1,6 +1,6 @@
 {
   "msg": "司机搜索乘客的蹭车需求",
-  "error_code": 0,
+  "error_code": "1",
   "data": [{
     "request_id": "request_id",
     "school": "school",

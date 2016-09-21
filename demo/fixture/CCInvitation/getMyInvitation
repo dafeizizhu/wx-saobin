@@ -1,6 +1,6 @@
 {
   "msg": "司机获取我邀请乘客的信息",
-  "error_code": 0,
+  "error_code": "1",
   "data": [{
     "invitation_id": "invitation_id",
     "travel_id": "travel_id",
