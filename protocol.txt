@@ -204,7 +204,7 @@ error_code      int
 
 9.司机获取我邀请乘客的信息
 请求方式: GET
-url:  Host:Port/Home/CCInvitation/getMyInvitation
+url:  Host:Port/Home/CCInvitation/getMyInvitationRes
 入参:
 user_id       string
 
@@ -257,7 +257,7 @@ remark        string
 
 11.乘客获取我的蹭车信息
 请求方式: GET
-url:  Host:Port/Home/CCRequest/getMyRequest
+url:  Host:Port/Home/CCRequest/getMyRequestRes
 入参:
 user_id       string
 
@@ -357,3 +357,15 @@ data                status
 status:
 status    int       (0，未注册，1正在审核，2审核通过)
 user_id   string
+
+16. 获取我的行程（司机和乘客）
+请求方式: GET
+url: Host:Port/Home/CCUsers/getMyTravel
+入参：
+user_id      string
+出参:
+error_code          int
+msg                 string
+data                travel_list
+
+travel_list:
