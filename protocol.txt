@@ -366,6 +366,75 @@ user_id      string
 出参:
 error_code          int
 msg                 string
-data                travel_list
+data                []travel_list
 
 travel_list:
+ travel_id              string
+ driver_user_id         string
+ passenger_num          string
+ rest_passenger_num     string
+ departure_longtitude   string
+ departure_latitude     string
+ departure_addr         string
+ departure_time         string
+ destination_longtitude string
+ destination_latitude   string
+ destination_addr       string
+ reward                 string
+ remark                 string
+ vehicle_id             string
+ vehicle_brand          string
+ vehicle_model          string
+ vehicle_num            string
+ vehicle_pic            string
+ 
+17. getInvitationDetail（获取邀请详情）
+请求方式: GET
+url:  Host:Port/Home/CCInvitation/getInvitationDetail
+入参:
+user_id       string
+invitation_id string
+
+出参:
+msg       string
+error_code      int
+data     invitation
+
+invitation:
+invitation_id     string
+travel_id     string        (乘客想蹭的行程id)
+passenger_id      string        (乘客的user_id)
+nick_name       string
+sex       int       (0未知，1男，2女)
+school        string
+passenger_num     int
+invite_result     int       (2拒绝，1同意,0未作决定)
+
+
+18.乘客获取我的蹭车详情
+请求方式: GET
+url:  Host:Port/Home/CCRequest/getRequestDetail
+入参:
+user_id       string
+request_id    string
+
+出参:
+msg       string
+error_code      int
+data      request
+
+
+request:
+request_id      string
+nick_name       string
+sex       int       (0未知，1男，2女)
+school        string
+mobile        string
+
+destination_longtitude    float
+destination_latitude    float
+departure_time      string
+passenger_num     int
+reward        float
+vehicle_id      int
+remark        string
