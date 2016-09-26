@@ -189,6 +189,7 @@ sex       int       (0未知，1男，2女)
 school        string
 passenger_num     int
 mobile        string
+status    int (0未应答,1同意,2拒绝,3取消)
 
 8.司机接受乘客的请求
 请求方式: POST
@@ -221,7 +222,7 @@ nick_name       string
 sex       int       (0未知，1男，2女)
 school        string
 passenger_num     int
-invite_result     int       (2拒绝，1同意,0未作决定)
+status    int (0未应答,1同意,2拒绝,3取消)
 
 
 10.乘客获取我的行程邀请信息
@@ -251,6 +252,7 @@ reward        float
 passenger_num     int
 vehicle_id      int
 remark        string
+status    int (0未应答,1同意,2拒绝,3取消)
 
 
 
@@ -281,6 +283,7 @@ passenger_num     int
 reward        float
 vehicle_id      int
 remark        string
+status    int (0未应答,1同意,2拒绝,3取消)
           
 
 12.乘客获取我已完成的行程
@@ -408,7 +411,7 @@ nick_name       string
 sex       int       (0未知，1男，2女)
 school        string
 passenger_num     int
-invite_result     int       (2拒绝，1同意,0未作决定)
+status    int (0未应答,1同意,2拒绝,3取消)
 
 
 18.乘客获取我的蹭车详情
@@ -438,3 +441,4 @@ passenger_num     int
 reward        float
 vehicle_id      int
 remark        string
+status    int (0未应答,1同意,2拒绝,3取消)
