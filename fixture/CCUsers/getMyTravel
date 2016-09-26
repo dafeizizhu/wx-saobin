@@ -1,0 +1,43 @@
+{
+  "error_code": "1",
+  "msg": "获取我的行程（司机和乘客）",
+  "data": [{
+    “travel_id": "travel_id_1"
+    “driver_user_id": "driver_user_id_1",
+    “passenger_num": 1,
+    “rest_passenger_num": 1,
+    “departure_longtitude": 1,
+    “departure_latitude": 1,
+    “departure_addr": "departure_addr_1",
+    “departure_time": "2016-09-26T01:00",
+    “destination_longtitude": 1,
+    “destination_latitude": 1,
+    “destination_addr": "destination_addr_1",
+    “reward": 1,
+    “remark": "remark_1",
+    “vehicle_id": "1",
+    “vehicle_brand": "vehicle_brand_1",
+    “vehicle_model": "vehicle_model_1",
+    “vehicle_num": 1,
+    “vehicle_pic": ""
+  }, { 
+    “travel_id": "travel_id_2"
+    “driver_user_id": "driver_user_id_2",
+    “passenger_num": 2,
+    “rest_passenger_num": 2,
+    “departure_longtitude": 2,
+    “departure_latitude": 2,
+    “departure_addr": "departure_addr_2",
+    “departure_time": "2016-09-26T01:00",
+    “destination_longtitude": 2,
+    “destination_latitude": 2,
+    “destination_addr": "destination_addr_2",
+    “reward": 2,
+    “remark": "remark_2",
+    “vehicle_id": "2",
+    “vehicle_brand": "vehicle_brand_2",
+    “vehicle_model": "vehicle_model_2",
+    “vehicle_num": 2,
+    “vehicle_pic": ""
+  }]
+}
