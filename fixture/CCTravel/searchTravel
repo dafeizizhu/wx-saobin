@@ -1,5 +1,39 @@
 {
   "msg": "乘客搜索司机的行程",
   "error_code": "1",
-  "data": []
+  "data": [{
+    "travel_id": "1",
+    "school": "school1",
+    "nick_name": "nick_name1",
+    "passenger_num": 1,
+    "departure_longtitude": 1,
+    "departure_latitude": 1,
+    "departure_name": "departure_name1",
+    "destination_name": "destination_name1",
+    "destination_longtitude": 1,
+    "destination_latitude": 1,
+    "departure_time": "2016-10-25T01:00",
+    "vehicle_brand": "vehicle_brand1",
+    "vehicle_model": "vehicle_model1",
+    "vehicle_num": 1,
+    "vehicle_pic": "vehicle_pic1",
+    "reward": 1
+  }, {
+    "travel_id": "2",
+    "school": "school2",
+    "nick_name": "nick_name2",
+    "passenger_num": 2,
+    "departure_longtitude": 2,
+    "departure_latitude": 2,
+    "departure_name": "departure_name2",
+    "destination_name": "destination_name2",
+    "destination_longtitude": 2,
+    "destination_latitude": 2,
+    "departure_time": "2016-10-25T01:00",
+    "vehicle_brand": "vehicle_brand2",
+    "vehicle_model": "vehicle_model2",
+    "vehicle_num": 2,
+    "vehicle_pic": "vehicle_pic2",
+    "reward": 2
+  }]
 }
