@@ -442,3 +442,18 @@ reward        float
 vehicle_id      int
 remark        string
 status    int (0未应答,1同意,2拒绝,3取消)
+
+
+19.司机发布邀请
+请求方式: POST
+url:  Host:Port/Home/CCInvitation/postInvitation
+入参:
+driver_user_id                string
+pass_user_id                  string
+travel_id		          string
+request_id		string
+
+
+出参:
+msg       string
+error_code      int
