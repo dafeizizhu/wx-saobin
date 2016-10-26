@@ -2,7 +2,7 @@
 | ------------- | ------------- | ------------- | ------------- |
 | ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/travel-submit.png?raw=true) | Host:Port/Home/CCTravel/postTravel | 发布行程 | checked |
 | ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/travel-search.png?raw=true) | Host:Port/Home/CCRequest/searchRequest | 搜索蹭车请求 | checked |
-| ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/travel-submit-pick.png?raw=true) | Host:Port/Home/CCInvitation/postInvitation| 搜索到蹭车请求之后主动提出邀请 | not check|
+| ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/travel-submit-pick.png?raw=true) | Host:Port/Home/CCInvitation/postInvitation| 搜索到蹭车请求之后主动提出邀请 | can check|
 | ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/request-search.png?raw=true) | Host:Port/Home/CCTravel/searchTravel | 搜索行程 |can check |
 | ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/request-submit.png?raw=true) | Host:Port/Home/CCRequest/postRequest | 发布蹭车请求 | checked |
 | ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/request-search-ceng.png?raw=true) | Host:Port/Home/CCRequest/postRequest | 搜索到行程之后主动提出蹭车 |checked |
