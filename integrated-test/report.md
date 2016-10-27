@@ -2,10 +2,10 @@
 | ------------- | ------------- | ------------- | ------------- |
 | ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/travel-submit.png?raw=true) | Host:Port/Home/CCTravel/postTravel | 发布行程 | checked |
 | ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/travel-search.png?raw=true) | Host:Port/Home/CCRequest/searchRequest | 搜索蹭车请求 | checked |
-| ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/travel-submit-pick.png?raw=true) | Host:Port/Home/CCInvitation/postInvitation| 搜索到蹭车请求之后主动提出邀请 | check|
-| ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/request-search.png?raw=true) | Host:Port/Home/CCTravel/searchTravel | 搜索行程 |can check |
+| ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/travel-submit-pick.png?raw=true) | Host:Port/Home/CCInvitation/postInvitation| 搜索到蹭车请求之后主动提出邀请 | checked |
+| ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/request-search.png?raw=true) | Host:Port/Home/CCTravel/searchTravel | 搜索行程 | checked |
 | ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/request-submit.png?raw=true) | Host:Port/Home/CCRequest/postRequest | 发布蹭车请求 | checked |
-| ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/request-search-ceng.png?raw=true) | Host:Port/Home/CCRequest/postRequest | 搜索到行程之后主动提出蹭车 |checked |
+| ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/request-search-ceng.png?raw=true) | Host:Port/Home/CCRequest/postRequest | 搜索到行程之后主动提出蹭车 | checked |
 | ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/user-center-personal-info-edit.png?raw=true) | Host:Port/Home/CCUsers/updateUserInfo | 修改个人资料 |not check |
 | ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/user-center-my-travels-request-for-me.png?raw=true) | Host:Port/Home/CCRequest/getRequestForMe | 获取别人对你行程提出的蹭车请求 | checked |
 | ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/user-center-my-travels-request-answer.png?raw=true) | Host:Port/Home/CCRequest/answerRequest | 对别人对你行程提出的蹭车请求进行应答 | checked |
