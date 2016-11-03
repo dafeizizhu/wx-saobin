@@ -12,7 +12,7 @@
 | ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/user-center-my-travels-my-invitation-res.png?raw=true) | Host:Port/Home/CCInvitation/getMyInvitationRes | 获取你主动邀请别人反馈的结果 | checked |
 | ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/user-center-my-travels-my-travel.png?raw=true) | Host:Port/Home/CCTravel/getMyTravel | 获取你的所有行程 | checked |
 | ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/user-center-my-travels-my-travel-edit.png?raw=true) | Host:Port/Home/CCTravel/updateMyTravel | 修改其中一个行程 | not check|
-| ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/user-center-my-travels-my-travel-cancel.png?raw=true) |Host:Port/Home/CCTravel/delMyTravel| 取消其中一个行程 | checking(传入了user_id和request_id后提示取消失败) |
+| ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/user-center-my-travels-my-travel-cancel.png?raw=true) |Host:Port/Home/CCTravel/delMyTravel| 取消其中一个行程 | checked |
 | ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/user-center-my-requests-invitation-for-me.png?raw=true) | Host:Port/Home/CCInvitation/getInvitationForMe | 获取别人对你蹭车请求提出的邀请 | checked |
 | ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/user-center-my-requests-invitation-answer.png?raw=true) | Host:Port/Home/CCInvitation/answerInvitation| 对别人对你蹭车请求提出的邀请进行应答 | checking(不知道入参) pass_user_id (乘客ID），invitation_id(邀请ID)，result（结果，1同意，2拒绝）|
 | ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/user-center-my-requests-my-request-res.png?raw=true) | Host:Port/Home/CCRequest/getMyRequestRes | 获取你主动提出蹭车请求别人反馈的结果 | checked |
