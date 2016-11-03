@@ -18,7 +18,7 @@
 | ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/user-center-my-requests-my-request-res.png?raw=true) | Host:Port/Home/CCRequest/getMyRequestRes | 获取你主动提出蹭车请求别人反馈的结果 | checked |
 | ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/user-center-my-requests-my-request.png?raw=true) | Host:Port/Home/CCRequest/getMyRequest | 获取你的所有蹭车请求 | checked |
 | ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/user-center-my-requests-my-request-save.png?raw=true) | Host:Port/Home/CCRequest/updateMyRequest | 修改其中一个蹭车请求 |not check |
-| ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/user-center-my-requests-my-request-cancel.png?raw=true) | Host:Port/Home/CCRequest/delMyRequest | 取消其中一个蹭车请求 | checking(getMyRequest的数据没有返回id，不知道入参) |
+| ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/user-center-my-requests-my-request-cancel.png?raw=true) | Host:Port/Home/CCRequest/delMyRequest | 取消其中一个蹭车请求 | checking(getMyRequest的数据没有返回id，不知道入参) 已返回。入参：pass_user_id（乘客ID），request_id（请求ID) |
 | ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/user-center-my-travels-my-invitation-res.png?raw=true) | /Home/CCInvitation/notifyInvitationRead | 单击邀请反馈后调用这个接口 | checked |
 | ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/user-center-my-requests-my-request-res.png?raw=true) | Host:Port/Home/CCRequest/notifyRequestRead | 单击蹭车请求反馈后调用这个接口 | checked |
 | ![](https://github.com/dafeizizhu/wx-saobin/blob/master/integrated-test/user-center-my-rate.png?raw=true) | -- | 获取我对司机的评价 | |
