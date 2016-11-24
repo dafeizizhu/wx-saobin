@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "NODE_ENV=dev API_ENV=local webpack -d --watch",
-    "dev-remote-api": "NODE_ENV=dev webpack -d --watch"
+    "dev": "NODE_ENV=dev API_ENV=local node ./node_modules/webpack/bin/webpack -d --watch",
+    "dev-remote-api": "NODE_ENV=dev node ./node_modules/webpack/bin/webpack -d --watch",
+    "dev-server": "./node_modules/http-server/bin/http-server -p 8080"
   },
   "author": "",
   "license": "ISC",
@@ -18,6 +19,7 @@
     "babel-preset-react": "^6.11.1",
     "del": "^2.2.2",
     "gulp": "^3.9.1",
+    "http-server": "^0.9.0",
     "script-loader": "^0.7.0",
     "webpack": "^1.13.2"
   },
