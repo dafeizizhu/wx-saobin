@@ -12,7 +12,10 @@
 
 ### 构建到正式环境
 
-    // TODO
+    $ git clone https://github.com/dafeizizhu/wx-saobin.git
+    $ cd wx-saobin
+    $ npm install
+    $ npm run tar # 生成dist.tar解压到服务器静态目录的Root里面即可
 
 ### 路由
 
