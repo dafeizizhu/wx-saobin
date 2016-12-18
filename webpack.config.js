@@ -1,13 +1,14 @@
 var path = require('path')
 var webpack = require('webpack')
+var HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   entry: './lib/index.js',
   output: {
-    path: path.join(__dirname, 'dist'),
-    publicPath: './dist/',
-    chunkFilename: '[name].chunk.js',
-    filename: 'index.js'
+    path: path.join(__dirname, 'dist', 'js'),
+    publicPath: './js/',
+    chunkFilename: '[name].[chunkhash:8].chunk.js',
+    filename: 'index.[chunkhash:8].js'
   },
   module: {
     loaders: [{
@@ -31,6 +32,10 @@ module.exports = {
         'NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'production'),
         'API_ENV': JSON.stringify(process.env.API_ENV || 'remote')
       }
+    }),
+    new HtmlWebpackPlugin({
+      filename: '../index.html',
+      template: './index.html'
     })
   ]
 }
