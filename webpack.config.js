@@ -5,6 +5,8 @@ module.exports = {
   entry: './lib/index.js',
   output: {
     path: path.join(__dirname, 'dist'),
+    publicPath: './dist/',
+    chunkFilename: '[name].chunk.js',
     filename: 'index.js'
   },
   module: {

@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "NODE_ENV=dev API_ENV=local node ./node_modules/webpack/bin/webpack -d --watch",
     "dev-remote-api": "NODE_ENV=dev node ./node_modules/webpack/bin/webpack -d --watch",
-    "dev-server": "./node_modules/http-server/bin/http-server -p 8080"
+    "dev-server": "./node_modules/http-server/bin/http-server -p 8081"
   },
   "author": "",
   "license": "ISC",
