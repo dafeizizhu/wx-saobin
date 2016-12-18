@@ -6,9 +6,9 @@
 
 ### 调试
 
-    $ http-server -p 8080 &
-    $ NODE_ENV=dev webpack -d --watch &
-    $ open http://localhost:8080
+    $ npm run dev-server # 打开的端口为8081 
+    $ npm run dev-remote-api # 使用正式的接口进行调试
+    $ open http://localhost:8081
 
 ### 构建到正式环境
 
