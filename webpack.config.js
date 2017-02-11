@@ -2,13 +2,18 @@ var path = require('path')
 var webpack = require('webpack')
 var HtmlWebpackPlugin = require('html-webpack-plugin')
 
+var isDev = process.env.NODE_ENV == 'dev'
+var publicPath = isDev ? 'http://127.0.0.1:8081/js/' : './js/'
+var chunkFilename = isDev ? '[name].chunk.js' : '[name].[chunkhash:8].chunk.js'
+var filename = isDev ? 'index.js' : 'index.[chunkhash:8].js'
+
 module.exports = {
   entry: './lib/index.js',
   output: {
     path: path.join(__dirname, 'dist', 'js'),
-    publicPath: './js/',
-    chunkFilename: '[name].[chunkhash:8].chunk.js',
-    filename: 'index.[chunkhash:8].js'
+    publicPath,
+    chunkFilename,
+    filename
   },
   module: {
     loaders: [{
